@@ -1,0 +1,37 @@
+h2{
+    color :blueviolet
+    
+}
+.grid{
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+}
+.item {
+    order: 3; 
+  } 
+  img:hover{
+  transform: translate(-3%,-3%) ;
+  }    
+   p{
+       color :crimson;
+       font-size: x-large;
+       font-weight: bold;
+       text-align: center;
+   }  
+   img{
+       border: solid;
+   }  
+   .header{
+       background-color: rgb(114, 241, 220);
+       border: solid deeppink;
+
+   } 
+   a:visited{
+       color :deeppink;
+   }
+     a:link {
+         color: blue;
+     }
+
